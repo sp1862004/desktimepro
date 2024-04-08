@@ -1,0 +1,759 @@
+@media only screen and (min-width: 992px){
+    /* sub header css starts */
+   * {
+       margin: 0px;
+       padding: 0px;
+   }
+   
+   .container {
+       display: flex;
+       border-bottom: 0.5px solid #7a7a7a;
+   }
+   
+   .main1 {
+       height: 23px;
+       width: 220px;
+       margin-left: 50px;
+       padding-right: -50px;
+       border-right: 1px solid;
+       border-color: #7a7a7a;
+       margin-top: 10px;
+   }
+   
+   #mail {
+       display: inline;
+       color: #f35525;
+   }
+   
+   .mailid {
+       display: inline;
+       margin-left: 20px;
+       color: #7a7a7a;
+   }
+   
+   .main2 {
+       height: 23px;
+       width: 220px;
+       margin-left: 30px;
+       margin-top: 10px;
+   }
+   
+   #map {
+       display: inline;
+       color: #f35525;
+   }
+   
+   .map1 {
+       display: inline;
+       margin-left: 20px;
+       color: #7a7a7a;
+   }
+   
+   .social {
+       height: 23px;
+       width: 220px;
+       display: flex;
+       margin-left: 650px;
+       margin-top: 10px;
+   
+   }
+   
+   .social1 {
+       margin-left: 20px;
+       font-size: 20px;
+   
+   }
+   
+   #social2 {
+       color: gray;
+   }
+   
+   #social2:hover {
+       color: #f35525;
+   }
+   
+   /* sub header css end  */
+   /* header starts */
+   .mainheader {
+       display: flex;
+       background-color: white;
+   
+       position: sticky;
+       height: 80px;
+   }
+   
+   .schedule1 {
+   
+       margin-left: 70px;
+       height: 100%;
+       background-color: black;
+       padding-bottom: 5px;
+       padding-top: 5px;
+       border-radius: 50px;
+   }
+   
+   .headeroption1 {
+       display: flex;
+       margin-left: 700px;
+   }
+   
+   .option2 {
+       margin-left: 30px;
+       margin-top: 30px;
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+   }
+   
+   .option3 {
+       text-decoration: none;
+       color: #f35525;
+   }
+   
+   .option4 {
+       text-decoration: none;
+       color: black;
+   }
+   
+   .option4:hover {
+       color: #f35525;
+   }
+   
+   .calender {
+       height: 27px;
+       width: 27px;
+       display: inline-block;
+       border-radius: 50%;
+       background-color: #f35525;
+       text-align: center;
+       margin-right: 5px;
+   }
+   
+   #calender1 {
+       color: #f35525;
+       text-decoration: none;
+       color: white;
+       text-align: center;
+       margin-top: 5px;
+   }
+   
+   .schedule2 {
+       text-decoration: none;
+       color: white;
+       display: inline-block;
+       /* background-color: black; */
+       height: 50px;
+       margin-top: 10px;
+       border-radius: 30% 30% 30% 30%;
+       margin-right: 10px;
+       margin-top: 30px;
+   }
+   
+   .headertitle1 {
+       margin-left: 50px;
+       margin-top: 30px;
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   }
+   
+   /* header end  */
+   /* first villa container starts */
+   .container-1 {
+       background-image: url(https://templatemo.com/templates/templatemo_591_villa_agency/assets/images/banner-01.jpg);
+       height: 800px;
+       max-width: 100%;
+       position: relative;
+   
+   }
+   
+   .perant-1 {
+       height: 30px;
+       width: 150px;
+       background-color: white;
+       position: absolute;
+       top: 150px;
+       margin-left: 200px;
+       margin-top: 0px;
+       z-index: 100;
+       display: flex;
+   }
+   
+   .perant-1 h3 {
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       margin-top: 0px;
+   }
+   
+   .canada {
+       color: #f35525;
+   }
+   
+   .perant-2 {
+       z-index: 100;
+       position: absolute;
+       top: 180px;
+       color: white;
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       margin-left: 200px;
+       font-size: 40px;
+   }
+   
+   /* first villa container end  */
+   /* second villa container (featured) starts  */
+   .container-2 {
+       display: flex;
+   }
+   
+   .perant-3 {
+       height: 490px;
+       width: 355px;
+       /* border: 1px solid red; */
+       margin-top: 50px;
+       margin-left: 100px;
+       margin-left: 160px;
+   
+   }
+   
+   .a {
+       height: 100px;
+       width: 100px;
+       /* border: 1px solid red; */
+       z-index: 100;
+       position: absolute;
+       border-radius: 100%;
+       background-color: #f35525;
+       margin-top: -40px;
+       margin-left: -50px;
+   }
+   
+   #img2 {
+       margin-top: 20px;
+       margin-left: 30px;
+   }
+   
+   .perant-4 {
+       height: 500px;
+       width: 500px;
+       /* border: 1px solid red; */
+       margin-top: 50px;
+       margin-left: 30px;
+   }
+   
+   .perant-4 h4 {
+       color: #f35525;
+   }
+   
+   .perant-4 h1 {
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       font-size: 50px;
+   }
+   
+   .featured-child {
+       height: 150px;
+       width: 450px;
+       background-color: whitesmoke;
+       margin-top: 80px;
+       margin-left: 25px;
+       border-radius: 10px;
+   }
+   
+   .featured-child h3 {
+       margin-top: 10px;
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   }
+   
+   .featured-child h3:hover {
+       color: #f35525;
+   }
+   
+   .perant-5 {
+       height: 500px;
+       width: 300px;
+       /* border: 1px solid red; */
+       margin-top: 50px;
+       margin-left: 30px;
+       border-radius: 10px;
+       box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+   }
+   
+   .featured-child1 {
+       height: 124px;
+       max-width: 100%;
+       /* border: 1px solid red; */
+       display: flex;
+   }
+   
+   .featured-child1-0 {
+       height: 100%;
+       width: 120px;
+       /* border: 1px solid red; */
+   }
+   
+   #img1 {
+       height: 60px;
+       width: 60px;
+       margin-top: 35px;
+       margin-left: 45px;
+   }
+   
+   .featured-child1-5 {
+       height: 100%;
+       max-width: 100%;
+       /* border: 1px solid red; */
+   }
+   
+   .featured-child1-5 h2 {
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       margin-top: 35px;
+   }
+   
+   .featured-child1-5 h4 {
+       color: #7a7a7a;
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   }
+   
+   /* second villa container (featured) end  */
+   /* third villa container (video view) starts  */
+   .container-3 {
+       height: 700px;
+       width: 100%;
+       /* border: 1px solid red; */
+       margin-top: 80px;
+       /* background-color: #7a7a7a; */
+       background-image: url(https://cdnassets.hw.net/59/4f/ec834d9c41e88c592de7cb8a1d61/8a9bc436f9a843f284397d909dfc4e8f.jpg);
+   }
+   
+   .container-3 h5 {
+       color: #f35525;
+       text-align: center;
+       margin-top: 50px;
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   }
+   
+   .container-3 h1 {
+       color: white;
+       text-align: center;
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       margin-top: 20px;
+   }
+   
+   .perant-6 {
+       height: 400px;
+       width: 800px;
+       border-radius: 10px;
+       z-index: 100;
+       position: absolute;
+       /* border: 1px solid red; */
+       margin-left: 380px;
+       margin-top: 350px;
+       background-image: url(https://templatemo.com/templates/templatemo_591_villa_agency/assets/images/video-frame.jpg);
+   }
+   #img3{
+       height: 400px;
+       width: 800px;
+       border-radius: 10px;
+   }
+   #play{
+       margin-left: 350px;
+       z-index: 0;
+       font-size: 50px;
+       color: #f35525;
+       margin-top: 180px;
+   }
+   
+   /* third villa container (video view) end  */
+   /* fourth villa container (three points) starts */
+   .container-4 {
+       height: 200px;
+       max-width: 100%;
+       margin-top: 250px;
+       /* border: 1px solid red; */
+       display: flex;
+   }
+   
+   .perant-7 {
+       height: 80px;
+       width: 250px;
+       /* border: 1px solid red; */
+       margin-top: 60px;
+       margin-left: 180px;
+       display: flex;
+       background-color: #ffeee9;
+       border-radius: 10px;
+   }
+   
+   .three-point-1 {
+       height: 100%;
+       width: 100px;
+       /* border: 1px solid red ; */
+   }
+   
+   .three-point-2 {
+       height: 100%;
+       width: 150px;
+       /* border: 1px solid red; */
+   }
+   
+   .three-point-1 h1 {
+       font-size: 50px;
+       margin-top: 10px;
+       margin-left: 10px;
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       color: #f35525;
+   }
+   
+   .three-point-2 h3 {
+       margin-top: 20px;
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   }
+   
+   .circal {
+       height: 50px;
+       width: 50px;
+       border-radius: 100%;
+       z-index: 100;
+       position: absolute;
+       background-color: #f35525;
+       margin-left: 230px;
+       margin-top: -30px;
+   }
+   
+   /* fourth villa container (three points) end */
+   /* fifth villa container (best deal) starts  */
+   .container-5 {
+       height: 900px;
+       max-width: 100%;
+       /* border: 1px solid red; */
+       margin-top: 20px;
+   }
+   
+   .perant-8 {
+       height: 200px;
+       max-width: 100%;
+       margin-top: 50px;
+       /* border: 1px solid red; */
+   }
+   
+   .perant-8 h5 {
+       color: #f35525;
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       margin-left: 100px;
+   }
+   
+   .perant-8 h1 {
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       font-size: 40px;
+       margin-top: 20px;
+       margin-left: 100px;
+   }
+   
+   .appartment {
+       margin-left: 1000px;
+       margin-top: -200px;
+   }
+   
+   .appartment {
+       height: 50px;
+       width: 150px;
+       background-color: #f35525;
+       color: white;
+       font-size: 20px;
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       border: none;
+       border-radius: 10px;
+   }
+   
+   .button1 {
+       height: 50px;
+       width: 150px;
+       font-size: 20px;
+       background-color: black;
+       color: white;
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       border: none;
+       border-radius: 10px;
+   }
+   .perant-9{
+       height: 350px;
+       width: 300px;
+       /* border: 1px solid red; */
+       margin-left: 100px;
+       margin-top: 50px;
+       border-radius: 10px;
+       box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+   }
+   .perant-9 h2{
+       float: right;
+       margin-top: -20px;
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       
+   }
+   .perant-9 h3{
+       margin-top: 21px;
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       color: #7a7a7a;
+   }
+   .perant-10{
+       height: 394px;
+       width: 520px;
+       /* border: 1px solid red; */
+       margin-left: 450px;
+       margin-top: -350px;
+   }
+   #img4{
+       margin-top: -320px;
+   }
+   .perant-11{
+       height: 500px;
+       width: 350px;
+       /* border: 1px solid red; */
+       margin-left: 1020px;
+       margin-top: -400px;
+   }
+   .perant-11 h3{
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   }
+   .perant-11 p{
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       color: #7a7a7a;
+   }
+   /* fifth villa container (best deal) end  */
+    /* sixth villa container (Properties) starts */
+   .container-6{
+       height: 1300px;
+       max-width: 100%;
+       /* border: 1px solid red; */
+   }
+   .perant-12{
+       height: 120px;
+       max-width: 100%;
+       /* border: 1px solid red; */
+   }
+   .perant-12 h5{
+       color: #f35525;
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       text-align: center;
+   }
+   .perant-12 h1{
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       margin-top: 10px;
+       text-align: center;
+       font-size: 40px;
+   }
+   .perant-13{
+       height: 1150px;
+       width: 1400px;
+       /* border: 1px solid red; */
+       margin-top: 20px;
+       margin-left: 55px;
+   }
+   .Properties-child1{
+       height: 560px;
+       width: 400px;
+       /* border: 1px solid red; */
+       float: left;
+       margin-left: 50px;
+       margin-top: 20px;
+       background-color: whitesmoke;
+       border-radius: 10px;
+   }
+   #img5{
+       border-radius: 10px;
+       margin-top: 20px;
+       margin-left: 25px;
+   }
+   .luxyryvilla{
+       height: 30px;
+       width: 110px;
+       background-color: #fbd9cf;
+       border: none;
+       border-radius: 5px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: 16px;
+      margin-top: 20px;
+      margin-left: 20px;
+   }
+   .Properties-child1 h1{
+       color: #f35525;
+       margin-left: 250px;
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       margin-top: -30px;
+       font-size: 25px;
+   }
+   .Properties-child1 h2{
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       margin-top: 20px;
+       margin-left: 20px;
+   }
+   .Properties-child1 h5{
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       font-size: 15px;
+       margin-left: 20px;
+       float: left;
+       margin-top: 20px;
+   }
+   .Scheduleavisit{
+       height: 50px;
+       width: 200px;
+       background-color: black;
+       border-radius: 50px;
+       color: white;
+       font-size: 18px;
+       margin-top: 55px;
+       margin-left: -30px;
+       border: none;
+   }
+   .Scheduleavisit:hover{
+       color: #f35525;
+   }
+   .Scheduleavisit2{
+       height: 50px;
+       width: 200px;
+       background-color: black;
+       border-radius: 50px;
+       color: white;
+       font-size: 18px;
+       margin-top: 50px;
+       margin-left: -90px;
+       border: none;
+   }
+   .Scheduleavisit2:hover{
+       color: #f35525;
+   }
+   /* sixth villa container (Properties) end  */
+   /* seventh villa container (conteact us) starts  */
+   .container-7{
+       height: 600px;
+       max-width: 100%;
+       /* border: 1px solid red; */
+       margin-top: 50px;
+       /* background-color: #7a7a7a; */
+       background-image: url(https://cdnassets.hw.net/59/4f/ec834d9c41e88c592de7cb8a1d61/8a9bc436f9a843f284397d909dfc4e8f.jpg);
+   }
+   .container-7 h5{
+       color: #f35525;
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       text-align: center;
+       margin-top: 100px;
+   }
+   .container-7 h1{
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       text-align: center;
+       margin-top: 10px;
+       color: white;
+       font-size: 45px;
+   }
+   .perant-14{
+       height: 500px;
+       width: 700px;
+       /* border: 1px solid red; */
+       z-index: 3;
+       margin-top: 120px;
+       margin-left: 100px;
+       border-radius: 10px;
+       cursor: cell;
+   }
+   #img6{
+       height: 500px;
+       max-width: 100%;
+       border-radius: 10px;
+   }
+   .perant-15{
+       height: 700px;
+       width: 500px;
+       /* border: 1px solid red; */
+       border-radius: 10px;
+       z-index: 3;
+       margin-left: 880px;
+       margin-top: -500px;
+       background-color: white;
+   }
+   .perant-15 label{
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       font-size: 20px;
+       margin-top: 40px;
+       margin-left: 30px;
+   }
+   .perant-15 input{
+       height: 50px;
+       width: 400px;
+       margin-left: 30px;
+       margin-top: 20px;
+       border-radius: 50px;
+       background-color: whitesmoke;
+       border: none;
+   }
+   #Message{
+       height: 150px;
+       border-radius: 20px;
+   }
+   .sendmessage{
+       height: 50px;
+       width: 200px;
+       background-color: black;
+       border-radius: 50px;
+       color: white;
+       font-size: 18px;
+       margin-top: 50px;
+       margin-left: 30px;
+       border: none;
+   }
+   .perant-16{
+       height: 100px;
+       width: 300px;
+       border: 1px solid;
+       float: left;
+       margin-left: 100px;
+       border-radius: 10px;
+       margin-top: -100px;
+       display: flex;
+       box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+   }
+   .perant-17{
+       height: 100px;
+       width: 300px;
+       float: left;
+       margin-left: 100px;
+       border-radius: 10px;
+       margin-top: -100px;
+       display: flex;
+       box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+   }
+   .contact1{
+       height: 100%;
+       width: 100px;
+   }
+   .contact2{
+       height: 100%;
+       width: 200px;
+   }
+   #img7{
+       margin-top: 15px;
+       margin-left: 30px;
+       height: 70px;
+       width: 70px;
+   }
+   .contact2 h2{
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       margin-top: 25px;
+       margin-left: 15px;
+   }
+   .contact2 p{
+       color: #7a7a7a;
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       margin-left: 15px;
+       margin-top: 5px;
+   }
+   /* seventh villa container (conteact us) end  */
+   /* villa site footer starts */
+   .container-8{
+       height: 100px;
+       width: 100%;
+       background-color: black;
+       margin-top: 600px;
+   }
+   .container-8 h3{
+       color: white;
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       text-align: center;
+       
+   }
+   }
+   
